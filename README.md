@@ -1,4 +1,4 @@
-# typescript-swc-starter
+# typescript-boilerplate-package
 
 A simple node boilerplate made in typescript using swc.
 

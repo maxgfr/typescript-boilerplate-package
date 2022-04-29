@@ -1,3 +1,3 @@
 export function sayHello() {
-  console.log("We're are ready to go", process.env.MY_VARIABLE);
+  console.log("H_E_L_L_O");
 }
