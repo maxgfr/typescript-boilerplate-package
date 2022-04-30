@@ -1,37 +1,14 @@
 # typescript-boilerplate-package
 
-A simple node boilerplate made in typescript using swc.
+`typescript-boilerplate-package` is a package that helps you to create a typescript project with a nice structure and to publish it on npm.
 
-> NOTE : A version without rust compiler [swc](https://swc.rs/) is available [here](https://github.com/maxgfr/boilerplate-typescript-node).
+After using this template, you have to grant permission to change version of the package thanks to `semantic-release`. This field is available on the settings of the project.
 
-## Clone repository and install dependencies
+![Alt Text](https://raw.githubusercontent.com/maxgfr/typescript-boilerplate-package/main/.github/assets/permissions.png)
 
-```sh
-git clone https://github.com/maxgfr/typescript-swc-starter # For cloning the repository
-cd typescript-swc-starter # To navigate to the repository root
-yarn # Install dependencies
-cp .env.example .env
-```
+To test it, you can install it with `npm install typescript-boilerplate-package`. Then :
 
-## Running the code
-
-```sh
-yarn build # For building the code with typechecking
-yarn build:swc # For building without typechecking
-yarn start # For running the code builded
-```
-
-Or in `development` mode:
-
-```sh
-yarn dev # For running the code in development thanks to swc and nodemon
-```
-
-> **:warning: No typechecking made in dev mode**
-
-## Testing the code
-
-```sh
-yarn test # For running unit test
-yarn test:watch # For watching unit test
+```ts
+import {sayHello} from "typescript-boilerplate-package";
+sayHello();
 ```

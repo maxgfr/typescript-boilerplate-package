@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "maxgfr",
   "license": "MIT",
-  "description": "A ts typescript swc starter",
+  "description": "A typescript boilerplate using swc to release a package on npm",
   "main": "./build/index.js",
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
   "keywords": [
     "boilerplate",
     "typescript",
-    "swc"
+    "swc",
+    "package",
+    "release"
   ],
   "scripts": {
     "start": "node build/index.js",
@@ -33,7 +35,8 @@
     "build:swc": "swc ./src -d build",
     "build:swc:watch": "swc ./src -d build -w",
     "lint": "eslint ./src --ext .ts",
-    "prettier": "prettier --write './src/**/*.{ts,js,json}'"
+    "prettier": "prettier --write './src/**/*.{ts,js,json}'",
+    "release": "semantic-release"
   },
   "dependencies": {},
   "devDependencies": {

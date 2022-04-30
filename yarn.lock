@@ -2450,11 +2450,6 @@ dot-prop@^5.1.0, dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
-dotenv@16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.0.tgz#c619001253be89ebb638d027b609c75c26e47411"
-  integrity sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==
-
 duplexer2@~0.1.0:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/duplexer2/-/duplexer2-0.1.4.tgz#8b12dab878c0d69e3e7891051662a32fc6bddcc1"
@@ -4505,6 +4500,11 @@ node-releases@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.2.tgz#7139fe71e2f4f11b47d4d2986aaf8c48699e0c01"
   integrity sha512-XxYDdcQ6eKqp/YjI+tb2C5WM2LgjnZrfYg4vgQt49EK268b6gYCHsBLrK2qvJo4FmCtqmKezb0WZFK4fkrZNsg==
+
+node-simple-context@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/node-simple-context/-/node-simple-context-1.1.2.tgz#5bfc21aa095d4257a051f211fabf4c6fcf99be0f"
+  integrity sha512-WDr9z5nu+knN5jja72LlmhJGG31LHGmW6CjW+iMeIqImFOEOfF0YSa1sGZWPaEMpzA4x6b2DnqITv5ZOTuWKiQ==
 
 nodemon@2.0.16:
   version "2.0.16"
